@@ -1,0 +1,70 @@
+var all = [
+  {"url": "img/app/1.jpg"},
+  {"url": "img/app/2.jpg"},
+  {"url": "img/app/3.jpg"},
+  {"url": "img/app/4.jpg"},
+  {"url": "img/app/5.jpg"},
+  {"url": "img/app/6.jpg"},
+  {"url": "img/app/7.jpg"},
+  {"url": "img/branding/1.jpg"},
+  {"url": "img/branding/2.jpg"},
+  {"url": "img/branding/3.jpg"},
+  {"url": "img/branding/4.jpg"},
+  {"url": "img/branding/5.jpg"},
+  {"url": "img/branding/6.jpg"},
+  {"url": "img/branding/7.jpg"},
+  {"url": "img/photography/1.jpg"},
+  {"url": "img/photography/2.jpg"},
+  {"url": "img/photography/3.jpg"},
+  {"url": "img/photography/4.jpg"},
+  {"url": "img/photography/5.jpg"},
+  {"url": "img/photography/6.jpg"},
+  {"url": "img/photography/7.jpg"},
+  {"url": "img/web/1.jpg"},
+  {"url": "img/web/2.jpg"},
+  {"url": "img/web/3.jpg"},
+  {"url": "img/web/4.jpg"},
+  {"url": "img/web/5.jpg"},
+  {"url": "img/web/6.jpg"},
+  {"url": "img/web/7.jpg"}
+]
+
+var app = [
+  {"url": "/img/app/1.jpg"},
+  {"url": "/img/app/2.jpg"},
+  {"url": "/img/app/3.jpg"},
+  {"url": "/img/app/4.jpg"},
+  {"url": "/img/app/5.jpg"},
+  {"url": "/img/app/6.jpg"},
+  {"url": "/img/app/7.jpg"},
+]
+
+var branding = [
+  {"url": "/img/branding/1.jpg"},
+  {"url": "/img/branding/2.jpg"},
+  {"url": "/img/branding/3.jpg"},
+  {"url": "/img/branding/4.jpg"},
+  {"url": "/img/branding/5.jpg"},
+  {"url": "/img/branding/6.jpg"},
+  {"url": "/img/branding/7.jpg"},
+]
+
+var photography = [
+  {"url": "/img/photography/1.jpg"},
+  {"url": "/img/photography/2.jpg"},
+  {"url": "/img/photography/3.jpg"},
+  {"url": "/img/photography/4.jpg"},
+  {"url": "/img/photography/5.jpg"},
+  {"url": "/img/photography/6.jpg"},
+  {"url": "/img/photography/7.jpg"},
+]
+
+var web = [
+  {"url": "/img/web/1.jpg"},
+  {"url": "/img/web/2.jpg"},
+  {"url": "/img/web/3.jpg"},
+  {"url": "/img/web/4.jpg"},
+  {"url": "/img/web/5.jpg"},
+  {"url": "/img/web/6.jpg"},
+  {"url": "/img/web/7.jpg"}
+]
