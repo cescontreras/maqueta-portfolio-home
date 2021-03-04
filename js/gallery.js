@@ -40,7 +40,7 @@ function load() {
 		appTab[i].addEventListener("click", showApp);
 	}
 
-  showAll()
+	showAll();
 }
 
 function showAll() {
@@ -50,14 +50,6 @@ function showAll() {
 	setActiveBtns("all-tab");
 
 	showPictures(all);
-
-	// all.forEach((i) => {
-	// 	let img = document.createElement("img");
-	// 	img.setAttribute("src", i.url);
-	// 	img.setAttribute("class", "img-gallery");
-	// 	img.setAttribute("alt", "");
-	// 	gallery[0].appendChild(img);
-	// });
 }
 
 function showBranding() {
@@ -67,15 +59,6 @@ function showBranding() {
 	setActiveBtns("branding-tab");
 
 	showPictures(branding);
-
-	// branding.forEach((i) => {
-	// 	let img = document.createElement("img");
-	// 	img.setAttribute("src", i.url);
-	// 	img.setAttribute("class", "img-gallery");
-	// 	img.setAttribute("alt", "");
-	// 	gallery.innerHTML = "";
-	// 	gallery[0].appendChild(img);
-	// });
 }
 
 function showWeb() {
@@ -85,15 +68,6 @@ function showWeb() {
 	setActiveBtns("web-tab");
 
 	showPictures(web);
-
-	// web.forEach((i) => {
-	// 	let img = document.createElement("img");
-	// 	img.setAttribute("src", i.url);
-	// 	img.setAttribute("class", "img-gallery");
-	// 	img.setAttribute("alt", "");
-	// 	gallery.innerHTML = "";
-	// 	gallery[0].appendChild(img);
-	// });
 }
 
 function showPhoto() {
@@ -103,15 +77,6 @@ function showPhoto() {
 	setActiveBtns("photo-tab");
 
 	showPictures(photography);
-
-	// photography.forEach((i) => {
-	// 	let img = document.createElement("img");
-	// 	img.setAttribute("src", i.url);
-	// 	img.setAttribute("class", "img-gallery");
-	// 	img.setAttribute("alt", "");
-	// 	gallery.innerHTML = "";
-	// 	gallery[0].appendChild(img);
-	// });
 }
 
 function showApp() {
@@ -121,14 +86,6 @@ function showApp() {
 	setActiveBtns("app-tab");
 
 	showPictures(app);
-
-	// app.forEach((i) => {
-	// 	let img = document.createElement("img");
-	// 	img.setAttribute("src", i.url);
-	// 	img.setAttribute("class", "img-gallery");
-	// 	img.setAttribute("alt", "");
-	// 	gallery[0].appendChild(img);
-	// });
 }
 
 function showPictures(pictures) {
