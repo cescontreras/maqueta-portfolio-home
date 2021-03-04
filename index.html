@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300;1,500&family=Questrial&display=swap"
-    rel="stylesheet">
+  href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300;1,500&family=Questrial&display=swap"
+  rel="stylesheet">
+  <title>Home Portfolio</title>
 </head>
 
 <body>
@@ -19,12 +19,12 @@
     <img class="logo" src="img/logo.png" alt="" width="100">
     <img class="hamburger" src="img/hamburger.svg" alt="">
     <nav class="nav">
-      <a href="#">All</a>
-      <a href="#">Branding</a>
-      <a href="#">Web</a>
-      <a href="#">Photography</a>
-      <a href="#">App</a>
-      <i class='bx bx-search-alt'></i>
+      <a href="#galeria">All</a>
+      <a href="#galeria">Branding</a>
+      <a href="#galeria">Web</a>
+      <a href="#galeria">Photography</a>
+      <a href="#galeria">App</a>
+      <i class='bx bx-search-alt bx-lg icons'></i>
     </nav>
   </div>
   <div class="header">
@@ -37,19 +37,19 @@
   </div>
   <main>
     <section class="gallery" id="galeria">
-      <div>
-        <nav class="nav">
-          <a href="#">All</a>
-          <a href="#">Branding</a>
-          <a href="#">Web</a>
-          <a href="#">Photography</a>
-          <a href="#">App</a>
-          <i class='bx bx-search-alt'></i>
-        </nav>
-        <div>
-          <i class='bx bx-grid-small'></i>
-          <i class='bx bx-list-ul'></i>
+      <div class="portfolio-top">
+        <div style="font-size: 20px;">
+          <i class='bx bx-grid-alt bx-lg bx-burst-hover icons'></i>
+          <i class='bx bx-list-ul bx-lg bx-burst-hover icons'></i>
         </div>
+        <nav class="nav">
+          <a href="#galeria">All</a>
+          <a href="#galeria">Branding</a>
+          <a href="#galeria">Web</a>
+          <a href="#galeria">Photography</a>
+          <a href="#galeria">App</a>
+        </nav>
+        
       </div>
       <div class="container">
         <!-- <div class="container-galeria">
@@ -65,9 +65,9 @@
   </main>
   <footer id="footer">
     <div class="container footer-content">
-      <div class="contact-us">
-        <p>All Rights Reserved</p>
-      </div>
+
+        <p> 2021 - All Rights Reserved</p>
+
       <div class="social-media">
         <a href="./" class="social-media-icon">
           <i class='bx bxl-facebook'></i>
@@ -87,15 +87,11 @@
         </a>
       </div>
     </div>
-    <div class="line"></div>
   </footer>
-
-  <!-- <div>    
-    <i class='bx bxl-facebook-circle' ></i>
-    <i class='bx bxl-twitter' ></i>
-    
-    <i class='bx bxl-instagram' ></i>
-  </div> -->
+  <script src="js/menu.js"></script>
+  <script src="img/images.js"></script>
+  <script src="js/gallery.js"></script>
+  
 </body>
 
 </html>
