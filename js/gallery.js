@@ -39,6 +39,8 @@ function load() {
 	for (i = 0; i < appTab.length; i++) {
 		appTab[i].addEventListener("click", showApp);
 	}
+
+  showAll()
 }
 
 function showAll() {
@@ -47,13 +49,15 @@ function showAll() {
 	clearActiveBtns();
 	setActiveBtns("all-tab");
 
-	all.forEach((i) => {
-		let img = document.createElement("img");
-		img.setAttribute("src", i.url);
-		img.setAttribute("class", "img-gallery");
-		img.setAttribute("alt", "");
-		gallery[0].appendChild(img);
-	});
+	showPictures(all);
+
+	// all.forEach((i) => {
+	// 	let img = document.createElement("img");
+	// 	img.setAttribute("src", i.url);
+	// 	img.setAttribute("class", "img-gallery");
+	// 	img.setAttribute("alt", "");
+	// 	gallery[0].appendChild(img);
+	// });
 }
 
 function showBranding() {
@@ -62,14 +66,16 @@ function showBranding() {
 	clearActiveBtns();
 	setActiveBtns("branding-tab");
 
-	branding.forEach((i) => {
-		let img = document.createElement("img");
-		img.setAttribute("src", i.url);
-		img.setAttribute("class", "img-gallery");
-		img.setAttribute("alt", "");
-		gallery.innerHTML = "";
-		gallery[0].appendChild(img);
-	});
+	showPictures(branding);
+
+	// branding.forEach((i) => {
+	// 	let img = document.createElement("img");
+	// 	img.setAttribute("src", i.url);
+	// 	img.setAttribute("class", "img-gallery");
+	// 	img.setAttribute("alt", "");
+	// 	gallery.innerHTML = "";
+	// 	gallery[0].appendChild(img);
+	// });
 }
 
 function showWeb() {
@@ -78,31 +84,34 @@ function showWeb() {
 	clearActiveBtns();
 	setActiveBtns("web-tab");
 
-	web.forEach((i) => {
-		let img = document.createElement("img");
-		img.setAttribute("src", i.url);
-		img.setAttribute("class", "img-gallery");
-		img.setAttribute("alt", "");
-		gallery.innerHTML = "";
-		gallery[0].appendChild(img);
-	});
+	showPictures(web);
+
+	// web.forEach((i) => {
+	// 	let img = document.createElement("img");
+	// 	img.setAttribute("src", i.url);
+	// 	img.setAttribute("class", "img-gallery");
+	// 	img.setAttribute("alt", "");
+	// 	gallery.innerHTML = "";
+	// 	gallery[0].appendChild(img);
+	// });
 }
 
 function showPhoto() {
 	cleanGallery();
 
 	clearActiveBtns();
-	setActiveBtns("photo-app");
+	setActiveBtns("photo-tab");
 
-	this.classList.toggle("active");
-	photography.forEach((i) => {
-		let img = document.createElement("img");
-		img.setAttribute("src", i.url);
-		img.setAttribute("class", "img-gallery");
-		img.setAttribute("alt", "");
-		gallery.innerHTML = "";
-		gallery[0].appendChild(img);
-	});
+	showPictures(photography);
+
+	// photography.forEach((i) => {
+	// 	let img = document.createElement("img");
+	// 	img.setAttribute("src", i.url);
+	// 	img.setAttribute("class", "img-gallery");
+	// 	img.setAttribute("alt", "");
+	// 	gallery.innerHTML = "";
+	// 	gallery[0].appendChild(img);
+	// });
 }
 
 function showApp() {
@@ -111,7 +120,19 @@ function showApp() {
 	clearActiveBtns();
 	setActiveBtns("app-tab");
 
-	app.forEach((i) => {
+	showPictures(app);
+
+	// app.forEach((i) => {
+	// 	let img = document.createElement("img");
+	// 	img.setAttribute("src", i.url);
+	// 	img.setAttribute("class", "img-gallery");
+	// 	img.setAttribute("alt", "");
+	// 	gallery[0].appendChild(img);
+	// });
+}
+
+function showPictures(pictures) {
+	pictures.forEach((i) => {
 		let img = document.createElement("img");
 		img.setAttribute("src", i.url);
 		img.setAttribute("class", "img-gallery");
